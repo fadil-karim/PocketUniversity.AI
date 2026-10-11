@@ -5,7 +5,7 @@
  * their HTML as a no-JS fallback; this script replaces its contents at load
  * so the header is identical everywhere by construction.
  *
- * Order in the nav: Home · OttomanLabs.AI · Contact · Instagram × 2 · Dark.
+ * Order in the nav: Home · OttomanLabs.AI · Contact · Instagram (fid_900) · Dark.
  *
  * The toggle exposes window.__setTheme(mode) and window.__theme, persists to
  * localStorage 'pu-theme', and dispatches 'themechange' + 'resize' so every
@@ -47,8 +47,6 @@
       }).join('') +
       '<a class="ig-link" href="https://instagram.com/fid_900" target="_blank" rel="noopener" ' +
         'aria-label="Instagram — fid_900">' + IG + 'fid_900</a>' +
-      '<a class="ig-link" href="https://instagram.com/ottomanlabs.ai" target="_blank" rel="noopener" ' +
-        'aria-label="Instagram — ottomanlabs.ai">' + IG + 'ottomanlabs.ai</a>' +
       '<button class="theme-toggle" id="themeToggle" aria-pressed="false" title="Toggle light / dark">' +
         '<span class="th-dot" aria-hidden="true"></span><span id="themeLabel">Dark</span>' +
       '</button>' +

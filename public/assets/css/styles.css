@@ -115,6 +115,9 @@ a:hover{ text-decoration:underline; text-underline-offset:3px; }
   letter-spacing:.14em; text-transform:none;
 }
 .ig-glyph{ width:15px; height:15px; display:block; }
+/* PocketUniversity: Flux draws 9 and 0 like g and o, so the handle read as
+   "fid_goo" - set it in Afacad Flux, at the weight that matches the nav */
+.nav-row .ig-link{ font-family:'Afacad Flux',sans-serif; font-weight:400; }
 
 /* ── boxes ── */
 .box{

@@ -70,7 +70,10 @@ batches: implement, verify, commit, push.
 
 The design is the OttomanLabs.AI design system, carried over deliberately so
 the two sites read as one family: `assets/css/styles.css` is that system and
-should track the main site's stylesheet rather than drift from it. Content,
+should track the main site's stylesheet rather than drift from it. One
+deliberate difference: the masthead's Instagram handle is set in Afacad Flux,
+because Flux draws 9 and 0 like g and o and "fid_900" would read as
+"fid_goo" - keep that rule when bringing the stylesheet across. Content,
 copy and behaviour are the owner's. Do not tidy markup, rename classes, rewrite
 copy, or modernise CSS unless asked - changes to the design are their own
 release, requested deliberately.
@@ -87,3 +90,4 @@ and studio pages live on ottomanlabs.ai; cards link across to them.
 | v1.0 | The syllabus opens its doors | PocketUniversity.AI is live: a home for tutorials and guides in practical AI, in the same black-and-white style as OttomanLabs.AI. The Gherkin and Dymak HQ head the architecture section, followed by finance, AI image and video, a coming-soon Claude Code certification, the studio and a link to VisualNeuroscience.AI. |
 | v1.1 | VisualNeuroscience.AI filed under Education, Brain atlas | The VisualNeuroscience.AI card now carries a category and a sub category, Education and Brain atlas, in place of the old education-platform label. |
 | v1.2 | Ask what Warren Buffett would say | Finance & Investing now opens with the Stock Analyst, a web app that analyses what Warren Buffett would say about any company, in place of PyBuffet. The footer link follows suit. |
+| v1.3 | Every Instagram link now leads to fid_900 | All the Instagram links on the site, in the masthead, the follow box and the footer, now go to fid_900. The handle in the masthead also reads fid_900 properly instead of looking like fid_goo. |
